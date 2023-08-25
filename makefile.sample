@@ -1,11 +1,11 @@
 # ADB makefile
 # ------------
 
-#TODO change TOOLCHAIN variable to your toolchain path 
-TOOLCHAIN= /opt/poky/1.5/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
-CC= $(TOOLCHAIN)gcc
-LD= $(TOOLCHAIN)gcc
-CXX=$(CC)
+##TODO change TOOLCHAIN variable to your toolchain path
+#TOOLCHAIN= /opt/poky/1.5/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-
+#CC= $(TOOLCHAIN)gcc
+#LD= $(TOOLCHAIN)gcc
+#CXX=$(CC)
 
 
 SRCS+= adb.c
